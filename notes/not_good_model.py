@@ -24,5 +24,8 @@ class Model(object):
     def error(self):
         return self._error
 """
-This is basically, how models are defined in the TensorFlow codebase. However, there are some problems with it. Most notably, the whole graph is define in a single function, the constructor. This is neither particularly readable nor reusable.
+This is basically, how models are defined in the TensorFlow codebase.
+However, there are some problems with it.Most notably,
+ the whole graph is define in a single function, the constructor.
+  This is neither particularly readable nor reusable.
 """

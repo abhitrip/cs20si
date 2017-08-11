@@ -33,5 +33,7 @@ class Model(object):
             self._error = tf.reduce_mean(tf.cast(mistakes, tf.float32))
         return self._error
 """
-This is much better than the first example. Your code now is structured into functions that you can focus on individually. However, the code is still a bit bloated due to the lazy-loading logic. Let’s see how we can improve on that.
+This is much better than the first example. Your code now is structured into functions
+that you can focus on individually. However, the code is still a bit
+bloated due to the lazy-loading logic. Let’s see how we can improve on that.
 """
